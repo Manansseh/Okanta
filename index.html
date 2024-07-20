@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unique Event Planning </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner jarallax">
+			<div class="w3layouts-header-top">
+				<div class="container">
+					<div class="w3-header-top-grids">
+						<div class="w3-header-top-left">
+							
+						</div>
+						<div class="w3-header-top-right">
+							<div class="agileinfo-social-grids">
+								<ul>
+									<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://www.instagram.com/uniqueeventsplanning/"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="https://www.instagram.com/uniqueeventsplanning/"><i class="instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="head">
+				<div class="container">
+					<div class="navbar-top">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+								 <div class="navbar-brand logo ">
+									<h1><a href="index.html">Unique Event <span>Planning</span></a></h1>
+								</div>
+
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							 <ul class="nav navbar-nav link-effect-4">
+							<li class="active first-list"><a href="index.html">Home</a> </li>
+								<li><a href="about.html">About </a> </li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li class="dropdown">
+									
+									
+				
+								</li>
+								
+								<li><a href="contact.html">Contact</a></li>
+							  </ul>
+							</div><!-- /.navbar-collapse -->
+						</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-slider">
+				<div class="container">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>
+									<div class="agileits-banner-info">
+										<h3>Welcome To event  unique plannning</h3>
+										<p>Our meticulous attention to detail ensures your wedding day is the epitome of perfection, creating timeless memories.</p>
+										<div class="w3-button">
+											<div class="w3ls-button">
+												<a href="gallery.html">More</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info">
+										<h3>Creating Your Forever, Flawlessly.</h3>
+										<p>Focus on the joy and leave the details to us, as we craft and coordinate each moment of your special day to perfection.</p>
+										<div class="w3-button">
+											<div class="w3ls-button">
+												<a href="gallery.html">More</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info">
+										<h3>Elegance. Romance. Your Perfect Story.</h3>
+										<p>With a touch of elegance and romance, we tailor a wedding narrative that's as unique as your own love story</p>
+										<div class="w3-button">
+											<div class="w3ls-button">
+												<a href="gallery.html">More</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="agileits-banner-info">
+										<h3>Where Dreams turn Reality</h3>
+										<p>Bridging the gap between your wedding fantasies and reality, our planning makes your most dreamt-of moments come true.</p>
+										<div class="w3-button">
+											<div class="w3ls-button">
+												<a href="gallery.html">More</a>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:false,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<div class="w3-heading-grid">
+				<h2>Welcome</h2>
+				<div class="agileits-border"> </div>
+				<p>Welcome to Unique Events—where love stories come alive. Our mission is simple: to craft your ideal wedding day with precision, passion, and a touch of magic. As expert planners with an eye for the exceptional, we ensure a seamless journey to ‘I do.’ From intimate to grand, every detail is tailored to celebrate your unique love. Let's create unforgettable moments, together.Welcome to Unique events where love stories come alive. Our mission is simple: to craft your ideal wedding day with precision, passion, and a touch of magic. As expert planners with an eye for the exceptional, we ensure a seamless journey to ‘I do.’ From intimate to grand, every detail is tailored to celebrate your unique love. Let's create unforgettable moments, together.</p>
+			</div>
+			<div class="w3l-welcome-grids">
+				<div class="col-md-5 w3ls-welcome-left">
+					<img src="images/3.jpg" alt="" />
+				</div>
+				<div class="col-md-7 w3ls-welcome-right">
+					<h4>Unveiling the Art of Celebration</h4>
+					<p>Discover the elegance of personalized event planning with [Your Company Name]. Our experts craft your special day with precision and flair, ensuring every celebration is a unique, joy-filled reflection of your dream. Trust us to make your event not just planned, but passionately and memorably brought to life.
+						<span>Each celebration is custom-designed to embody the client's unique style and vision.</span>
+					</p>
+					<ul>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Bespoke Event Design</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Flawless Coordination</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Unforgettable Moments:</li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> Elevated Aesthetics:</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- choose-us -->
+	<div class="why-choose-agile">
+		<div class="container">
+			<div class="w3-heading-grid">
+				<h3>Why Choose Us</h3>
+				<div class="agileits-border"> </div>
+			</div>
+			<div class="why-choose-agile-grids-top">
+				<div class="col-md-4 agileits-w3layouts-grid">
+					<div class="wthree_agile_us">
+						<div class="col-xs-9 agile-why-text">
+							<h4>Culinary Delights:</h4>
+							<p>Savor exquisite catering options tailored to your palate, ensuring every bite is a celebration of flavor.p>
+						</div>
+						<div class="col-xs-3 agile-why-text">
+							<div class="wthree_features_grid hvr-rectangle-out">
+								<i class="fa fa-glass" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="wthree_agile_us">
+						<div class="col-xs-9 agile-why-text">
+							<h4>Elegant Decor</h4>
+							<p>Transform spaces with our bespoke decor arrangements that capture the essence of sophistication and romance.</p>
+						</div>
+						<div class="col-xs-3 agile-why-text">
+							<div class="wthree_features_grid hvr-rectangle-out">
+								<i class="fa fa-gift" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="wthree_agile_us">
+						<div class="col-xs-9 agile-why-text">
+							<h4>Photography & Videography</h4>
+							<p>Capture timeless memories with our top-tier photographers and videographers who document your day with artistry.</p>
+						</div>
+						<div class="col-xs-3 agile-why-text">
+							<div class="wthree_features_grid hvr-rectangle-out">
+								<i class="fa fa-heart" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 agileits-w3layouts-grid img">
+					<img src="images/4.jpg" alt=" " class="img-responsive" />
+				</div>
+				<div class="col-md-4 agileits-w3layouts-grid">
+					<div class="wthree_agile_us">
+						<div class="col-xs-3 agile-why-text agile-icon-left">
+							<div class="wthree_features_grid hvr-rectangle-out">
+								<i class="fa fa-picture-o" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="col-xs-9 agile-why-text two">
+							<h4>Floral Artistry</h4>
+							<p>From bouquets to centerpieces, our floral designs add a vibrant touch of natural beauty to your celebration.</p>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<div class="wthree_agile_us">
+						<div class="col-xs-3 agile-why-text agile-icon-left">
+							<div class="wthree_features_grid hvr-rectangle-out">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="col-xs-9 agile-why-text two">
+							<h4>Entertainment Coordination: </h4>
+							<p>Keep guests delighted with our curated entertainment options, from DJs to live bands and performers.</p>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+					<div class="wthree_agile_us">
+						<div class="col-xs-3 agile-why-text agile-icon-left">
+								<div class="wthree_features_grid hvr-rectangle-out">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+						</div>
+						<div class="col-xs-9 agile-why-text two">
+							<h4>Venue Selection</h4>
+							<p>Discover the perfect backdrop for your day among our selection of stunning venues, each one offering a unique ambiance.
+
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //choose-us -->
+	<!-- popular -->
+	<div class="popular-section-wthree jarallax">
+		<div class="agileinfo-dot">
+			<div class="container">	
+				<div class="w3-heading-grid popular-heading">
+					<h3>Popular Services</h3>
+					<div class="agileits-border"> </div>
+				</div>
+				<div class="popular-agileinfo">
+					<div class="col-md-3 popular-grid">
+						<i class="fa fa-bell" aria-hidden="true"></i>
+						<h4> Ceremony Planning</h4>
+						<p>Our dedicated planners ensure every moment of your ceremony is touched by romance and executed with grace, making the beginning of your lifelong journey unforgettable.</p>
+					</div>
+					<div class="col-md-3 popular-grid">
+						<i class="fa fa-anchor" aria-hidden="true"></i>
+						<h4>Venue Sourcing</h4>
+						<p>Discover the perfect setting for your event. From rustic countryside barns to elegant urban ballrooms, our team will find a venue that anchors your theme and exceeds your expectations.</p>
+					</div>
+					<div class="col-md-3 popular-grid popular-grid-bottom">
+						<i class="fa fa-book" aria-hidden="true"></i>
+						<h4>Detailed Itineraries</h4>
+						<p>From timelines to checklists, our meticulous itineraries ensure your event unfolds without a hitch, on time and on target</p>
+					</div>
+					<div class="col-md-3 popular-grid">
+						<i class="fa fa-car" aria-hidden="true"></i>
+						<h4>Luxury Transportation</h4>
+						<p>Arrive in style and comfort with our premium transportation services, adding a touch of sophistication to your grand entrance and departure.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //popular -->
+	
+	<!-- footer -->
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="w3agile_footer_grids">
+				<div class="col-md-3 w3agile_footer_grid">
+					<h3>About Us</h3>
+					<p> Unique Events turns event dreams into reality. Our experienced team focuses on bespoke planning and seamless execution to create celebrations that capture your unique vision. 
+					<span>Trust us to handle the details, leaving you free to enjoy your memorable day.</span></p>
+				</div>
+				
+				<div class="col-md-3 w3agile_footer_grid">
+					<h3>Contact Info</h3>
+					<ul>
+						<li><i class="fa fa-map-marker" aria-hidden="true"></i> 1234 Avenue, Street , <span>Atlanta Ga.</span></li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:example@email.com">mail@example.com</a></li>
+						<li><i class="fa fa-phone" aria-hidden="true"></i> +1 470 399 2802</li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3agile_footer_grid w3agile_footer_grid1">
+					<h3>Navigation</h3>
+					<ul>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="about.html">About</a></li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="gallery.html">Gallery</a></li>
+						
+						
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3agile_footer_grid">
+					<h3>Newsletter</h3>
+					<p>Subscribe With Us</p>
+					<form action="#" method="post">
+						<input type="email" placeholder="Subscribe" name="Subscribe" required="">
+						<button class="btn1">Go</button>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>	
+</html>
